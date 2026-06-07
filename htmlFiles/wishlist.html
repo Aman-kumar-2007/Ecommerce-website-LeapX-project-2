@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist</title>
+
+    <link rel="stylesheet" href="/cssFiles/cart.css">
+    <link rel="stylesheet" href="/cssFiles/wishlist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" ">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <main>
+
+        <header class=" page-header">
+    <div class="page-logo">
+        <a href="home.html">Shop-verse</a>
+    </div>
+    <nav class="category">
+        <a href="/htmlFiles/home.html" class="res-show">Home</a>
+        <a href="/htmlFiles/product-page.html" class="res-show">Product</a>
+        <a href="/htmlFiles/wishlist.html" class="res-hide">Wishlist</a>
+    </nav>
+
+    <div class="page-search">
+        <input type="text" placeholder="Search products..." width="100px">
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </div>
+    <nav class="page-icon">
+
+        <a href="wishlist.html" class="wishlist-icon">
+            <i class="fa-regular fa-heart"></i>
+            <span id="wishlist-count">0</span>
+        </a>
+        <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+        <a href="cart.html" class="cart-icon" id="cart-zone">
+            <i class="fa-solid fa-cart-arrow-down"></i>
+            <span id="cart-count">0</span>
+        </a>
+    </nav>
+    </header>
+    <main>
+
+        <section class="wishlist-hero">
+
+            <h1>My Wishlist</h1>
+
+            <p>
+                Save your favorite products and buy them later.
+            </p>
+
+            <span class="wishlist-count-pill" id="wishlist-product-count">0 products</span>
+
+        </section>
+
+        <section class="wishlist-layout">
+
+            <section class="wishlist-items">
+
+                <div class="wishlist-actions">
+
+                    <button class="continue-shopping-btn" id="continueShoppingBtn">
+                        <i class="bi bi-arrow-left-circle"></i>
+                        Continue Shopping
+                    </button>
+
+                </div>
+
+                <div class="wishlist-message" id="wishlist-message" aria-live="polite"></div>
+
+                <div id="wishlist-container"></div>
+
+                <div class="empty-wishlist hidden">
+
+                    <i class="bi bi-heartbreak"></i>
+
+                    <h2>No Wishlist Items</h2>
+
+                    <p>
+                        Start adding products you love.
+                    </p>
+
+                </div>
+
+            </section>
+
+            <aside class="wishlist-summary">
+
+                <h2>Wishlist Summary</h2>
+
+                <div class="wishlist-stat-card">
+
+                    <h3>Total Saved</h3>
+
+                </div>
+
+                <button class="move-all-btn" id="moveAllBtn">
+                    Add All to Cart
+                </button>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="shopping">
+
+            <h3>Online Shopping</h3>
+
+            <p>Men</p>
+            <p>Women</p>
+            <p>Kids</p>
+            <p>Home</p>
+            <p>Beauty</p>
+            <p>GenZ</p>
+            <p>Gift Cards</p>
+
+        </div>
+
+        <div class="customerPolicy">
+
+            <h3>Customer Policies</h3>
+
+            <p>Contact Us</p>
+            <p>FAQ</p>
+            <p>T&C</p>
+            <p>Track Orders</p>
+            <p>Privacy Policy</p>
+
+        </div>
+
+        <div class="links">
+            <h3>Keep in Touch</h3>
+            <div class="links-main">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+
+        <div class="help">
+
+            <h3>Help</h3>
+
+            <p>Store Locator</p>
+            <p>Cancellation & Return</p>
+            <p>Shipping & Delivery</p>
+            <p>Frequently Asked Questions</p>
+
+        </div>
+
+    </footer>
+
+    <script src="/JsFiles/wishlist.js"></script>
+
+    </body>
+
+</html>

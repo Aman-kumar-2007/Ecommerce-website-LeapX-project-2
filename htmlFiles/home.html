@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Shop-verse</title>
+    <link rel="stylesheet" href="/cssFiles/home.css">
+</head>
+<body>
+    <main>
+        <header class="page-header">
+            <div class="page-logo">
+                <a href="home.html">Shop-verse</a>
+            </div>
+            <nav class="category">
+                <a href="/htmlFiles/home.html" class="res-show">Home</a>
+                <a href="/htmlFiles/product-page.html" class="res-show">Product</a>
+                 <a href="/htmlFiles/wishlist.html" class="res-hide">Wishlist</a>
+            </nav>
+
+            <div class="page-search">
+                <input type="text" placeholder="Search products..." width="100px" id="search-input">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                
+            </div>
+            <nav class="page-icon">
+                
+                <a href="wishlist.html" class="wishlist-icon">
+                    <i class="fa-regular fa-heart"></i>
+                    <span id="wishlist-count">0</span>
+                </a>
+                <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+                <a href="cart.html" class="cart-icon" id="cart-zone">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                    <span id="cart-count">0</span>
+                </a>
+            </nav>
+        </header>
+        <section class="main">
+            <div class="banner">
+                <div class="banner-content">
+                   
+                </div>
+            </div>
+
+            <section class="beauty-product">
+                <h2>Beauty BFF</h2>
+                <div class="product-grid" id="beauty-products">
+                
+                </div>
+            </section>
+            <section class="grocery">
+                <h2>Groceries</h2>
+                <div class="product-grid" id="grocery-products">
+                
+                </div>
+            </section>
+            <section class="perfumes">
+                <h2>Luxury Perfumes</h2>
+                <div class="product-grid" id="perfumes-products">
+                
+                </div>
+            </section>
+
+        </section>
+       <footer>
+
+        <div class="shopping">
+
+            <h3>Online Shopping</h3>
+
+            <p>Men</p>
+            <p>Women</p>
+            <p>Kids</p>
+            <p>Home</p>
+            <p>Beauty</p>
+            <p>GenZ</p>
+            <p>Gift Cards</p>
+
+        </div>
+
+        <div class="customerPolicy">
+
+            <h3>Customer Policies</h3>
+
+            <p>Contact Us</p>
+            <p>FAQ</p>
+            <p>T&C</p>
+            <p>Track Orders</p>
+            <p>Privacy Policy</p>
+
+        </div>
+
+        <div class="links">
+            <h3>Keep in Touch</h3>
+            <div class="links-main">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+
+        <div class="help">
+
+            <h3>Help</h3>
+
+            <p>Store Locator</p>
+            <p>Cancellation & Return</p>
+            <p>Shipping & Delivery</p>
+            <p>Frequently Asked Questions</p>
+
+        </div>
+
+    </footer>
+    <div id="toast"></div>
+
+        <script src="../JsFiles/home.js"></script>
+        <script src="/JsFiles/toast.js"></script>
+    </main>
+</body>
+</html>
